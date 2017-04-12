@@ -1,0 +1,6 @@
+c:\users\j90\documents\visual studio 2017\Projects\LINQ\LINQ\bin\Debug\LINQ.exe.config
+c:\users\j90\documents\visual studio 2017\Projects\LINQ\LINQ\bin\Debug\LINQ.exe
+c:\users\j90\documents\visual studio 2017\Projects\LINQ\LINQ\bin\Debug\LINQ.pdb
+c:\users\j90\documents\visual studio 2017\Projects\LINQ\LINQ\obj\Debug\LINQ.csprojResolveAssemblyReference.cache
+c:\users\j90\documents\visual studio 2017\Projects\LINQ\LINQ\obj\Debug\LINQ.exe
+c:\users\j90\documents\visual studio 2017\Projects\LINQ\LINQ\obj\Debug\LINQ.pdb

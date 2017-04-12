@@ -1,0 +1,6 @@
+c:\users\j90\documents\visual studio 2017\Projects\LambdaExpressions\LambdaExpressions\bin\Debug\LambdaExpressions.exe.config
+c:\users\j90\documents\visual studio 2017\Projects\LambdaExpressions\LambdaExpressions\bin\Debug\LambdaExpressions.exe
+c:\users\j90\documents\visual studio 2017\Projects\LambdaExpressions\LambdaExpressions\bin\Debug\LambdaExpressions.pdb
+c:\users\j90\documents\visual studio 2017\Projects\LambdaExpressions\LambdaExpressions\obj\Debug\LambdaExpressions.csprojResolveAssemblyReference.cache
+c:\users\j90\documents\visual studio 2017\Projects\LambdaExpressions\LambdaExpressions\obj\Debug\LambdaExpressions.exe
+c:\users\j90\documents\visual studio 2017\Projects\LambdaExpressions\LambdaExpressions\obj\Debug\LambdaExpressions.pdb
