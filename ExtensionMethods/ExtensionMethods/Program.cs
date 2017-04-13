@@ -21,6 +21,11 @@ namespace ExtensionMethods
             */
             var shortendPost = post.Shorten(5);
             Console.WriteLine(shortendPost);
+
+            //4. Real World Extension Methods - MAX is a LINQ Extension Method.
+            IEnumerable<int> numbers = new List<int>() { 1, 5, 3, 2, 10, 2, 18};//Object Initalizer to Create some Data.
+            Console.WriteLine(numbers.Max());
+
             Console.ReadKey();
         }
     }
