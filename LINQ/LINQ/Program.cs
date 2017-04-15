@@ -12,6 +12,13 @@ namespace LINQ
         {
             Console.WriteLine("Introduction to LINQ - Language Intergrated Query:");
 
+            /*
+             * Types of LINQ:
+             * Obects in Memory (Collections) = Linq to Objects
+             * Databaes = Linq to Entity
+             * XML = Linq to XML
+             * ADO.NET Data Bsets = Linq to Data sets
+             */
             //Retrive the Collection of Books
             var books = new BookRepository().GetBooks();
 
@@ -26,6 +33,57 @@ namespace LINQ
             }
 
             //2. The LINQ Way - Need to Revise Extention Methods
+            Console.WriteLine("My First LINQ Command: Filtering Cheapbooks");
+            var moarCheapBooks = books.Where(b => b.Price < 10); //Where uses a Predicate(Search Condition) Lambda
+
+            foreach(var book in moarCheapBooks)
+            {
+                Console.WriteLine(book.Title + " $" + book.Price);
+            }
+
+            //3. What makes LINQ Powerful is chaining Commands
+            Console.WriteLine("\nChaining LINQ Commands: Filteting Cheapbooks & Order Descending Titles");
+            var sortedBooks = books.OrderBy(b => b.Title).OrderBy(b => b.Title);
+
+            foreach (var book in sortedBooks)
+            {
+                Console.WriteLine(book.Title + " $" + book.Price);
+            }
+
+            //4. LINQ Extension Method -  Select can select particular properties from a Collection
+            //A General Convention when Using LINQ and Lambdas, is to break each One into its own line, more readable.
+            Console.WriteLine("\nUsing SELECT to access/convert Properties from Objects.");
+            var bookTitles = books.
+                OrderBy(b => b.Title)
+                .OrderBy(b => b.Title)
+                .Select(b => b.Title);//Selecting the Title(String)
+
+            foreach(var book in bookTitles)
+            {
+                Console.WriteLine(book);//Just Printing what the Book Object Currently is, to show conversion from Book Object to String.
+            }
+
+            //5. LINQ Query Operators - Specific LINQ Operators to do the same job as above.
+            //These Keywords essentially use the same extension methods as above, but provide ease of use.
+            //For more complex queries, it is better to use the Extension Methods as there is not enough keywords to cover all the same functionality
+            var cheapoBooks = from b in books
+                              where b.Price < 10
+                              orderby b.Title
+                              select b.Title;
+
+            //.6 Single V Where
+            //The Where Method we used before returned a collection, what if we want a single result?
+            Console.WriteLine("\nLINQ Single - Find Single Object in collection with MVC in Title:");
+
+            //var MVCBook = books.Single(b => b.Title.Contains("MVC++")); - Must be certain ONLY ONE Exists, or will get exception
+            var MVCBook = books.SingleOrDefault(b => b.Title.Contains("MVC++")); //Safer Method
+            Console.WriteLine(MVCBook == null);//Should return Null, when No Match found.
+
+
+            //7. First Method
+            Console.WriteLine("\nLINQ First: First Books that matches given criteria.");
+            var firstBook = books.First(b => b.Title.Contains("C#"));
+            Console.WriteLine(firstBook.Title);
 
             Console.ReadKey();
         }
