@@ -83,7 +83,33 @@ namespace LINQ
             //7. First Method
             Console.WriteLine("\nLINQ First: First Books that matches given criteria.");
             var firstBook = books.First(b => b.Title.Contains("C#"));
-            Console.WriteLine(firstBook.Title);
+            Console.WriteLine(firstBook.Title + " " + firstBook.Price);
+
+            //8. Last Method
+            Console.WriteLine("\nLINQ Last: Last Books that matches given criteria.");
+            var lastBook = books.LastOrDefault(b => b.Title.Contains("C#"));
+            Console.WriteLine(lastBook.Title + " " + lastBook.Price);
+
+            //9 Skip & Take
+            Console.WriteLine("\nLINQ Skip & Take: Skip 2 into the list & Take 3.");
+            var skippedBooks = books.Skip(2).Take(3); //Skip 2 Into the collection & Return 3
+            foreach(var book in skippedBooks)
+            {
+                Console.WriteLine(book.Title);
+            }
+            //10. Count - Max - Min
+            Console.WriteLine("\nLINQ Count, Max , Min & Sum");
+            var bookCount = books.Count();
+            var max = books.Max(b => b.Price);
+            var min = books.Min(b => b.Price);
+            var sum = books.Sum(b => b.Price);
+            Console.WriteLine("Count {0} - Max {1} - Min {2} - Sum {3}" ,bookCount, max, min, sum);
+
+            //Summary - The Beauty of LINQ is these methods will not change if you are working with XML, Entity or Datasets
+            //books.Where();
+            //books.Single();
+            //books.SingleOrDefault();
+            //books.Average();
 
             Console.ReadKey();
         }
