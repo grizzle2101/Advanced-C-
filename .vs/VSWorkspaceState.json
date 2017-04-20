@@ -1,9 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\ExtensionMethods",
-    "\\LINQ"
+    "\\LINQ\\LINQ"
   ],
-  "SelectedNode": "\\LINQ\\LINQ.sln",
+  "SelectedNode": "\\LINQ",
   "PreviewInSolutionExplorer": false
 }

@@ -1,0 +1,6 @@
+c:\users\j90\documents\visual studio 2017\Projects\NullableTypes\NullableTypes\bin\Debug\NullableTypes.exe.config
+c:\users\j90\documents\visual studio 2017\Projects\NullableTypes\NullableTypes\bin\Debug\NullableTypes.exe
+c:\users\j90\documents\visual studio 2017\Projects\NullableTypes\NullableTypes\bin\Debug\NullableTypes.pdb
+c:\users\j90\documents\visual studio 2017\Projects\NullableTypes\NullableTypes\obj\Debug\NullableTypes.csprojResolveAssemblyReference.cache
+c:\users\j90\documents\visual studio 2017\Projects\NullableTypes\NullableTypes\obj\Debug\NullableTypes.exe
+c:\users\j90\documents\visual studio 2017\Projects\NullableTypes\NullableTypes\obj\Debug\NullableTypes.pdb
