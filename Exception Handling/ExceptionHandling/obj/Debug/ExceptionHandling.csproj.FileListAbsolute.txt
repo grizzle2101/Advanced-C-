@@ -1,0 +1,6 @@
+c:\users\j90\documents\visual studio 2017\Projects\ExceptionHandling\ExceptionHandling\bin\Debug\ExceptionHandling.exe.config
+c:\users\j90\documents\visual studio 2017\Projects\ExceptionHandling\ExceptionHandling\bin\Debug\ExceptionHandling.exe
+c:\users\j90\documents\visual studio 2017\Projects\ExceptionHandling\ExceptionHandling\bin\Debug\ExceptionHandling.pdb
+c:\users\j90\documents\visual studio 2017\Projects\ExceptionHandling\ExceptionHandling\obj\Debug\ExceptionHandling.csprojResolveAssemblyReference.cache
+c:\users\j90\documents\visual studio 2017\Projects\ExceptionHandling\ExceptionHandling\obj\Debug\ExceptionHandling.exe
+c:\users\j90\documents\visual studio 2017\Projects\ExceptionHandling\ExceptionHandling\obj\Debug\ExceptionHandling.pdb
