@@ -1,0 +1,14 @@
+c:\users\j90\documents\visual studio 2017\Projects\AsynchronousProgramming\AsynchronousProgramming\bin\Debug\AsynchronousProgramming.exe.config
+c:\users\j90\documents\visual studio 2017\Projects\AsynchronousProgramming\AsynchronousProgramming\bin\Debug\AsynchronousProgramming.exe
+c:\users\j90\documents\visual studio 2017\Projects\AsynchronousProgramming\AsynchronousProgramming\bin\Debug\AsynchronousProgramming.pdb
+c:\users\j90\documents\visual studio 2017\Projects\AsynchronousProgramming\AsynchronousProgramming\obj\Debug\AsynchronousProgramming.csprojResolveAssemblyReference.cache
+c:\users\j90\documents\visual studio 2017\Projects\AsynchronousProgramming\AsynchronousProgramming\obj\Debug\MainWindow.g.cs
+c:\users\j90\documents\visual studio 2017\Projects\AsynchronousProgramming\AsynchronousProgramming\obj\Debug\App.g.cs
+c:\users\j90\documents\visual studio 2017\Projects\AsynchronousProgramming\AsynchronousProgramming\obj\Debug\AsynchronousProgramming_MarkupCompile.cache
+c:\users\j90\documents\visual studio 2017\Projects\AsynchronousProgramming\AsynchronousProgramming\obj\Debug\AsynchronousProgramming_MarkupCompile.lref
+c:\users\j90\documents\visual studio 2017\Projects\AsynchronousProgramming\AsynchronousProgramming\obj\Debug\MainWindow.baml
+c:\users\j90\documents\visual studio 2017\Projects\AsynchronousProgramming\AsynchronousProgramming\obj\Debug\AsynchronousProgramming.g.resources
+c:\users\j90\documents\visual studio 2017\Projects\AsynchronousProgramming\AsynchronousProgramming\obj\Debug\AsynchronousProgramming.Properties.Resources.resources
+c:\users\j90\documents\visual studio 2017\Projects\AsynchronousProgramming\AsynchronousProgramming\obj\Debug\AsynchronousProgramming.csproj.GenerateResource.Cache
+c:\users\j90\documents\visual studio 2017\Projects\AsynchronousProgramming\AsynchronousProgramming\obj\Debug\AsynchronousProgramming.exe
+c:\users\j90\documents\visual studio 2017\Projects\AsynchronousProgramming\AsynchronousProgramming\obj\Debug\AsynchronousProgramming.pdb
